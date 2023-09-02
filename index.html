@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/logo.png" />
+    <title>Exam_02-JS</title>
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body class="">
+    <div id="sideBar" class="d-flex position-fixed top-0 zIndex2 h-100">
+      <div
+        class="side h-100 bg-black zIndex1 d-flex flex-column justify-content-between"
+      >
+        <ul class="list-unstyled ms-4 mt-5" id="navUl">
+          <li
+            id="Search"
+            class="menu fs-6 mb-4 animate__animated visually-hidden"
+          >
+            Search
+          </li>
+          <li
+            id="Categories"
+            class="menu fs-6 mb-4 animate__animated visually-hidden"
+          >
+            Categories
+          </li>
+          <li
+            id="Area"
+            class="menu fs-6 mb-4 animate__animated visually-hidden"
+          >
+            Area
+          </li>
+          <li
+            id="Ingredients"
+            class="menu fs-6 mb-4 animate__animated visually-hidden"
+          >
+            Ingredients
+          </li>
+          <li
+            id="ContactUs"
+            class="menu fs-6 mb-4 animate__animated visually-hidden"
+          >
+            Contact Us
+          </li>
+        </ul>
+
+        <div class="d-flex ms-4 flex-column justify-content-center">
+          <div class="">
+            <i class="fa-brands fa-facebook-f fa-xs text-light me-3"></i>
+            <i class="fa-brands fa-twitter fa-xs text-light me-3"></i>
+            <i class="fa-solid fa-globe fa-xs text-light me-3"></i>
+          </div>
+
+          <p class="mt-2 text-light text-start">
+            Copyright Â© 2023 All Rights Reserved.
+            <a href="https://github.com/hosam-eddin" target="_blank" class="text-warning"
+              >Hosam Torky</a
+            >
+          </p>
+        </div>
+      </div>
+      <div
+        class="fixedStrip bg-light d-flex flex-column justify-content-between align-content-center"
+      >
+        <div
+          class="w-100 pt-3 d-flex justify-content-center align-items-center"
+        >
+          <img class="w-75 text-center" src="images/logo.png" alt="" />
+        </div>
+        <div class="btnOpen w-100 text-center">
+          <i class="barsBtn fa-solid fa-bars fs-2"></i>
+          <i class="closeBtn fa-solid fa-close fs-2 visually-hidden"></i>
+        </div>
+        <div class="text-center d-flex flex-column justify-content-center">
+          <i class="fa-solid fa-globe fs-6 my-2"></i>
+          <i class="fa-solid fa-share-nodes fs-6 my-2"></i>
+        </div>
+      </div>
+    </div>
+    <!--! loading  -->
+    <div id="loading" class="loading">
+    <i class="fa-solid fa-spinner fa-spin text-light fa-4x"></i>
+    </div>
+
+    <!-- content -->
+    <section
+      id="Home"
+      class="bg-black container-fluid d-flex flex-column justify-content-start"
+    >
+      <div
+        id="content"
+        class="my-5 row ms-5 g-4 container w-100 d-flex justify-content-center"
+      ></div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.0.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

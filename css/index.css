@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  /* transition: all 0.5s; */
+}
+body {
+  overflow: hidden;
+}
+.loading {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  background-color: black;
+}
+#Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+#searchBox {
+  z-index: 5;
+}
+.zIndex {
+  z-index: 1;
+}
+.zIndex1 {
+  z-index: 5;
+}
+.zIndex2 {
+  z-index: 15;
+}
+.textShadow {
+  text-shadow: 1px 1px 5px rgb(255, 255, 219);
+}
+.bg-opacity {
+  opacity: 0.01;
+}
+#sideBar {
+  left: 0px;
+}
+.side {
+  width: 250px;
+}
+i,
+.moveUp,
+.btnOpen {
+  cursor: pointer;
+}
+.menu {
+  color: white;
+  cursor: pointer;
+  animation-delay: 0.5s;
+  transition: all 0.5s;
+}
+.menu:hover {
+  color: yellow;
+  text-shadow: 2px 2px 5px black;
+}
+
+.fixedStrip {
+  width: 60px;
+}
+
+.slideUp {
+  transform: translateY(101%);
+  transition: all 1s;
+}
+.moveUp:hover .slideUp {
+  transform: translateY(0%);
+}
+
+.recipiesCont {
+  width: fit-content;
+  background-color: #d4edda;
+  color: #155724;
+}
+.tagsCont {
+  width: fit-content;
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.editText {
+  white-space: wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.inputs {
+  outline: none !important;
+  border-top: 0px solid transparent !important;
+  border-left: 0px solid transparent !important;
+  border-right: 0px solid transparent !important;
+  border-bottom: 1px solid white;
+  color: white !important;
+}
+
+#navUl{
+  height: fit-content;
+  overflow: hidden;
+}
